@@ -1,6 +1,6 @@
 # MeetingMind - Issue Tracking & Documentation
 
-> **Note**: This repository is for **issue tracking, documentation, and community support** only. The main codebase is maintained in a private GitLab repository.
+> **Note**: This repository is for **issue tracking, documentation, and community support** only. The main codebase is maintained in a private repository.
 
 [![Mac App Store](https://img.shields.io/badge/Download-Mac%20App%20Store-blue.svg)](https://apps.apple.com/app/meeting-mind/id6751551175)
 [![Website](https://img.shields.io/badge/Website-meetingmind.kilabyte.io-orange.svg)](https://meetingmind.kilabyte.io)

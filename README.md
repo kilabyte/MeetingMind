@@ -89,21 +89,6 @@ The main codebase is developed and maintained in a private repository for securi
 - Automated meeting minutes generation
 - Browser extension for web-based meeting platforms
 
-**Vote on Features**: Have a feature request? [Create an issue](https://github.com/kilabyte/meetingmind/issues/new?template=feature_request.md) and let us know what you'd like to see!
-
-## Repository Structure
-
-```
-├── README.md                 # This file
-├── CONTRIBUTING.md          # How to contribute
-├── docs/                    # Documentation
-│   ├── user-guide/         # End-user documentation
-│   ├── technical/          # Technical architecture
-│   ├── troubleshooting/    # Common issues and solutions
-│   └── api/                # API documentation
-└── .github/
-    └── ISSUE_TEMPLATE/     # Issue templates
-```
 
 ## How to Report Issues
 
@@ -126,15 +111,6 @@ Have an idea? Please [create an issue](https://github.com/kilabyte/meetingmind/i
 - Any relevant examples or mockups
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
-## Documentation
-
-Comprehensive documentation is available in the [docs/](docs/) directory and on the [Wiki](https://github.com/kilabyte/meetingmind/wiki):
-
-- **[User Guide](docs/user-guide/)**: Getting started, features, and workflows
-- **[Technical Documentation](docs/technical/)**: Architecture, design patterns, and implementation details
-- **[Troubleshooting](docs/troubleshooting/)**: Common issues and solutions
-- **[API Reference](docs/api/)**: Integration and extension points
 
 ## Support
 

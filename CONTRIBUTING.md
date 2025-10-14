@@ -200,7 +200,7 @@ If you have questions about contributing, please:
 - Check the [documentation](docs/)
 - Search [existing issues](https://github.com/kilabyte/meetingmind/issues)
 - Create a new issue with the `question` label
-- Contact support via the [website](https://meetingmind-website.web.app/support.html)
+- Contact support via the [website](https://meetingmind.kilabyte.io/support.html)
 
 ## Recognition
 

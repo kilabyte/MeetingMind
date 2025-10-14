@@ -3,7 +3,7 @@
 > **Note**: This repository is for **issue tracking, documentation, and community support** only. The main codebase is maintained in a private GitLab repository.
 
 [![Mac App Store](https://img.shields.io/badge/Download-Mac%20App%20Store-blue.svg)](https://apps.apple.com/app/meeting-mind/id6751551175)
-[![Website](https://img.shields.io/badge/Website-meetingmind--website.web.app-orange.svg)](https://meetingmind-website.web.app)
+[![Website](https://img.shields.io/badge/Website-meetingmind.kilabyte.io-orange.svg)](https://meetingmind.kilabyte.io)
 [![Version](https://img.shields.io/badge/Version-1.3.3-green.svg)](#)
 
 ## About MeetingMind
@@ -36,7 +36,7 @@ This GitHub repository serves as the **public-facing hub** for MeetingMind:
 - 💬 **Community Support**: Get help from maintainers and other users
 - 📝 **Public Roadmap**: See what's coming next
 
-The main codebase is developed and maintained in a private GitLab repository for security and intellectual property reasons.
+The main codebase is developed and maintained in a private repository for security and intellectual property reasons.
 
 ## Roadmap
 
@@ -139,8 +139,8 @@ Comprehensive documentation is available in the [docs/](docs/) directory and on 
 ## Support
 
 - **Issues**: [GitHub Issues](https://github.com/kilabyte/meetingmind/issues)
-- **Support Form**: [Website Support](https://meetingmind-website.web.app/support.html)
-- **Website**: [meetingmind-website.web.app](https://meetingmind-website.web.app)
+- **Support Form**: [Website Support](https://meetingmind.kilabyte.io/support.html)
+- **Website**: [meetingmind.kilabyte.io](https://meetingmind.kilabyte.io)
 
 ## System Requirements
 
@@ -159,7 +159,7 @@ MeetingMind is privacy-first:
 - No telemetry or analytics in the app
 - Full macOS App Sandbox compliance
 
-See our [Privacy Policy](https://meetingmind-website.web.app/privacy.html) for details.
+See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for details.
 
 ## Technology Stack
 
@@ -208,4 +208,4 @@ This repository contains documentation and issue tracking for a proprietary appl
 
 ---
 
-**[Download MeetingMind](https://apps.apple.com/app/meeting-mind/id6751551175)** | **[Visit Website](https://meetingmind-website.web.app)** | **[Report Issue](https://github.com/kilabyte/meetingmind/issues/new)**
+**[Download MeetingMind](https://apps.apple.com/app/meeting-mind/id6751551175)** | **[Visit Website](https://meetingmind.kilabyte.io)** | **[Report Issue](https://github.com/kilabyte/meetingmind/issues/new)**

@@ -1,0 +1,42 @@
+Copyright (c) 2025 Kilabyte IO. All rights reserved.
+
+MeetingMind Proprietary License
+
+This repository contains documentation and issue tracking for the MeetingMind application,
+a proprietary software product owned and developed by Kilabyte IO.
+
+DOCUMENTATION LICENSE
+
+Permission is hereby granted to any person obtaining a copy of this documentation to use,
+copy, and distribute the documentation for informational and reference purposes, subject
+to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all copies
+   or substantial portions of the documentation.
+
+2. The documentation is provided "as is", without warranty of any kind, express or implied,
+   including but not limited to the warranties of merchantability, fitness for a particular
+   purpose and noninfringement.
+
+3. This license does not grant any rights to the MeetingMind application binary, source code,
+   or any other proprietary assets beyond the documentation contained in this repository.
+
+APPLICATION LICENSE
+
+The MeetingMind application is distributed through the Mac App Store and is subject to
+separate license terms as presented during installation and in the application itself.
+
+RESTRICTIONS
+
+1. You may not use this documentation to create competing products or services.
+2. You may not reverse engineer, decompile, or disassemble the MeetingMind application.
+3. You may not redistribute the MeetingMind application binary outside of the Mac App Store.
+4. All intellectual property rights in and to MeetingMind remain with Kilabyte IO.
+
+CONTRIBUTIONS
+
+By submitting issues, documentation improvements, or other contributions to this repository,
+you grant Kilabyte IO a perpetual, worldwide, non-exclusive, royalty-free license to use,
+modify, and incorporate your contributions into the project.
+
+For questions regarding licensing, please contact: https://meetingmind-website.web.app/support.html

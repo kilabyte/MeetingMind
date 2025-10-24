@@ -4,7 +4,7 @@
 
 [![Mac App Store](https://img.shields.io/badge/Download-Mac%20App%20Store-blue.svg)](https://apps.apple.com/app/meeting-mind/id6751551175)
 [![Website](https://img.shields.io/badge/Website-meetingmind.kilabyte.io-orange.svg)](https://meetingmind.kilabyte.io)
-[![Version](https://img.shields.io/badge/Version-1.3.3-green.svg)](#)
+[![Version](https://img.shields.io/badge/Version-1.3.5-green.svg)](#)
 
 ## About MeetingMind
 
@@ -14,10 +14,14 @@ MeetingMind is a macOS menu bar application that automatically detects and recor
 
 - **Automatic Meeting Detection**: Detects Zoom, Teams, Google Meet, and Webex meetings automatically
 - **Smart Recording**: Records system audio, microphone, or both with live transcription
-- **AI-Powered Processing**: Local WhisperKit transcription + AI summaries (Ollama or OpenRouter)
+- **AI-Powered Processing**: Local WhisperKit transcription + AI summaries (Ollama, OpenRouter, or Apple Intelligence)
+- **Drag-and-Drop Processing**: Drop audio files (M4A, WAV, MP3, AIFF, CAF, AAC) onto menu bar icon for instant transcription
+- **Launch on Login**: Automatically start MeetingMind when you log into macOS
+- **Enhanced Speaker Identification**: AI systematically tracks speakers with voice patterns and contextual attribution
+- **Custom Vocabulary**: Add domain-specific terms, acronyms, and specialized vocabulary for improved accuracy
 - **Calendar Integration**: Extracts meeting titles from your calendar automatically
 - **AI Chat Interface**: Interactive chat with meeting context and document analysis
-- **Privacy-First**: All data stored locally, optional cloud AI services
+- **Privacy-First**: All data stored locally, optional cloud AI services, Apple Intelligence on-device processing
 - **Mac App Store Available**: Full sandboxing support with security-scoped bookmarks
 
 ## Download
@@ -34,61 +38,8 @@ This GitHub repository serves as the **public-facing hub** for MeetingMind:
 - 🐛 **Issue Tracking**: Report bugs, request features, and discuss improvements
 - 📖 **Documentation**: User guides, API documentation, and technical references
 - 💬 **Community Support**: Get help from maintainers and other users
-- 📝 **Public Roadmap**: See what's coming next
 
 The main codebase is developed and maintained in a private repository for security and intellectual property reasons.
-
-## Roadmap
-
-### Version 1.4.0 (Q4 2025) - Enhanced AI & Integrations
-- **Advanced AI Features**
-  - Multi-language transcription support (Spanish, French, German, Japanese)
-  - Custom AI prompt templates with variables
-  - Speaker diarization improvements (better speaker identification)
-  - Sentiment analysis in meeting summaries
-
-- **Integration Enhancements**
-  - Export to Notion, Obsidian, and other note-taking apps
-  - Slack/Teams direct message integration for action items
-  - CRM integration (Salesforce, HubSpot) for sales meetings
-  - Google Drive/Dropbox direct upload
-
-### Version 1.5.0 (Q3 2025) - Collaboration & Teams
-- **Team Features**
-  - Shared meeting transcripts with team members
-  - Team workspaces for organized collaboration
-  - Role-based permissions (viewer, editor, admin)
-  - Comment threads on transcripts
-
-- **Advanced Search**
-  - Full-text search across all meetings
-  - Semantic search with AI-powered relevance
-  - Filter by date range, participants, keywords
-  - Export search results
-
-### Version 2.0.0 (Q4 2025) - Enterprise & Analytics
-- **Enterprise Features**
-  - SSO integration (SAML, OAuth)
-  - Admin dashboard for team management
-  - Usage analytics and compliance reporting
-  - Custom retention policies
-
-- **Meeting Analytics**
-  - Talk time analysis per participant
-  - Meeting effectiveness scores
-  - Action item tracking and completion rates
-  - Trend analysis across meetings
-
-### Future Considerations (2026+)
-- Video recording alongside audio
-- Real-time collaborative transcription editing
-- iOS/iPadOS companion app
-- Integration with project management tools (Jira, Asana, Monday.com)
-- Custom vocabulary for industry-specific terminology
-- Meeting templates and agenda tracking
-- Automated meeting minutes generation
-- Browser extension for web-based meeting platforms
-
 
 ## How to Report Issues
 
@@ -143,27 +94,34 @@ See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for detai
 - **UI Framework**: SwiftUI
 - **Audio**: ScreenCaptureKit, AVFoundation
 - **Speech Recognition**: Apple Speech Framework
-- **Local Transcription**: Forked WhisperKit
-- **Cloud AI**: Ollama (local), OpenRouter (cloud)
+- **Local Transcription**: WhisperKit (custom models supported)
+- **AI Services**: Ollama (local), OpenRouter (cloud), Apple Intelligence (on-device, macOS 26+)
 - **Calendar**: EventKit
 - **Distribution**: Mac App Store
 
 ## Recent Updates
 
-### Version 1.3.3 (Current)
-- MetricKit integration for system diagnostics
-- OpenRouter API key verification
-- What's New feature system
-- Enhanced AI prompt system
-- User-configurable AI model parameters
-- Meeting time limits extended (60 min/day free tier)
+### Version 1.3.5 (Current - October 2025)
+- **Drag-and-Drop Audio Processing**: Drop audio files onto menu bar for instant transcription
+- **Launch on Login**: Automatic app startup when logging into macOS
+- **Apple Intelligence Integration**: Native on-device AI processing (macOS 26+) as automatic fallback
+- **Enhanced Speaker Identification**: Systematic speaker tracking with voice patterns and contextual attribution
+- **Custom Vocabulary System**: Add domain-specific terms for improved transcription accuracy
+- **Custom WhisperKit Models**: Integrate HuggingFace models with real-time validation
+- **Configurable Markdown Output**: Toggle transcript inclusion to save disk space
 
-### Version 1.3.2
-- Settings corruption detection & recovery
-- Production UI cleanup (dev-only settings hidden)
-- StoreKit pricing enhancements
-- CI/CD Mac App Store integration
-- Comprehensive test suite improvements
+### Version 1.3.4 (October 2025)
+- OpenAI-compatible AI architecture with dynamic model discovery
+- Platform-agnostic tutorial language for cleaner UI
+- Calendar integration improvements (15-minute meeting window)
+- Bug reporting feature in Settings > About
+- Enhanced purchase messaging
+
+### Version 1.3.3 (October 2025)
+- Multi-platform meeting detection (Teams, Google Meet, Webex added)
+- Free tier extended to 60 minutes per day (from 30 minutes)
+- What's New feature system
+- Fixed QoS priority inversions in audio system
 
 See [Release Notes](https://github.com/kilabyte/meetingmind/releases) for complete changelog.
 

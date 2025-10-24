@@ -102,13 +102,13 @@ See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for detai
 ## Recent Updates
 
 ### Version 1.3.5 (Current - October 2025)
-- **Drag-and-Drop Audio Processing**: Drop audio files onto menu bar for instant transcription
-- **Launch on Login**: Automatic app startup when logging into macOS
-- **Apple Intelligence Integration**: Native on-device AI processing (macOS 26+) as automatic fallback
-- **Enhanced Speaker Identification**: Systematic speaker tracking with voice patterns and contextual attribution
-- **Custom Vocabulary System**: Add domain-specific terms for improved transcription accuracy
-- **Custom WhisperKit Models**: Integrate HuggingFace models with real-time validation
-- **Configurable Markdown Output**: Toggle transcript inclusion to save disk space
+- Drop audio files onto menu bar for instant transcription
+- Automatic app startup when logging into macOS
+- Native on-device AI processing (macOS 26+) as automatic fallback
+- Systematic speaker tracking with voice patterns and contextual attribution
+- Add domain-specific terms for improved transcription accuracy
+- Integrate HuggingFace models with real-time validation
+- Toggle transcript inclusion to save disk space
 
 ### Version 1.3.4 (October 2025)
 - OpenAI-compatible AI architecture with dynamic model discovery

@@ -8,7 +8,7 @@
 
 ## About MeetingMind
 
-MeetingMind is a macOS menu bar application that automatically detects and records online meetings (Zoom, Microsoft Teams, Google Meet, Webex) with AI-powered features. Built with Swift/SwiftUI for macOS 15.0+.
+MeetingMind is a macOS menu bar application that automatically detects and records online meetings with AI-powered features. Built with Swift/SwiftUI for macOS 15.0+.
 
 ### Key Features
 
@@ -41,7 +41,7 @@ This GitHub repository serves as the **public-facing hub** for MeetingMind:
 
 The main codebase is developed and maintained in a private repository for security and intellectual property reasons.
 
-## How to Report Issues
+## How to Contribute
 
 ### Bug Reports
 
@@ -73,31 +73,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 - **macOS**: 15.0 (Sequoia) or later
 - **Permissions**: Microphone, Screen Recording (for system audio), Calendar (optional)
-- **Disk Space**: ~500MB for app + WhisperKit models
-- **Supported Meeting Platforms**: Zoom, Microsoft Teams, Google Meet, Webex
+- **Disk Space**: ~100MB for app + WhisperKit/Parakeet models
 
 ## Privacy
 
 MeetingMind is privacy-first:
 
-- All recordings stored locally on your Mac
-- Local AI processing with WhisperKit (no cloud required)
-- Optional cloud AI services (Ollama, OpenRouter) - user controlled
-- No telemetry or analytics in the app
+- All recordings and data stored locally on your Mac
+- Local AI processing with WhisperKit or Parakeet (no cloud required)
+- Optional cloud AI services (OpenRouter) - user controlled
 - Full macOS App Sandbox compliance
 
 See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for details.
 
-## Technology Stack
-
-- **Language**: Swift 5.9+
-- **UI Framework**: SwiftUI
-- **Audio**: ScreenCaptureKit, AVFoundation
-- **Speech Recognition**: Apple Speech Framework
-- **Local Transcription**: WhisperKit (custom models supported)
-- **AI Services**: Ollama (local), OpenRouter (cloud), Apple Intelligence (on-device, macOS 26+)
-- **Calendar**: EventKit
-- **Distribution**: Mac App Store
 
 ## Recent Updates
 
@@ -123,16 +111,6 @@ See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for detai
 - What's New feature system
 - Fixed QoS priority inversions in audio system
 
-See [Release Notes](https://github.com/kilabyte/meetingmind/releases) for complete changelog.
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-
-- Reporting issues
-- Suggesting features
-- Contributing documentation
-- Code contributions (limited to public components)
 
 ## License
 

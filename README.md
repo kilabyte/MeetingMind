@@ -4,7 +4,7 @@
 
 [![Mac App Store](https://img.shields.io/badge/Download-Mac%20App%20Store-blue.svg)](https://apps.apple.com/app/meeting-mind/id6751551175)
 [![Website](https://img.shields.io/badge/Website-meetingmind.kilabyte.io-orange.svg)](https://meetingmind.kilabyte.io)
-[![Version](https://img.shields.io/badge/Version-1.3.5-green.svg)](#)
+[![Version](https://img.shields.io/badge/Version-1.3.7-green.svg)](#)
 
 ## About MeetingMind
 
@@ -12,17 +12,17 @@ MeetingMind is a macOS menu bar application that automatically detects and recor
 
 ### Key Features
 
-- **Automatic Meeting Detection**: Detects Zoom, Teams, Google Meet, and Webex meetings automatically
-- **Smart Recording**: Records system audio, microphone, or both with live transcription
-- **AI-Powered Processing**: Local WhisperKit transcription + AI summaries (Ollama, OpenRouter, or Apple Intelligence)
+- **Calendar Integration with Clickable Links**: Join meetings instantly from menu bar - calendar events display meeting links that open directly in your browser or meeting app with visual hover feedback
+- **Multi-Platform Meeting Detection**: Automatically detects Zoom, Teams, Google Meet, and Webex meetings with smart platform filtering
+- **Smart Recording**: Records system audio, microphone, or both with live transcription and automatic meeting title extraction
+- **AI-Powered Processing**: Local WhisperKit/Parakeet transcription + AI summaries (Ollama, OpenRouter, or Apple Intelligence)
 - **Drag-and-Drop Processing**: Drop audio files (M4A, WAV, MP3, AIFF, CAF, AAC) onto menu bar icon for instant transcription
-- **Launch on Login**: Automatically start MeetingMind when you log into macOS
+- **AI Chat Interface**: Interactive chat with meeting context, document analysis, and historical meeting search
 - **Enhanced Speaker Identification**: AI systematically tracks speakers with voice patterns and contextual attribution
-- **Custom Vocabulary**: Add domain-specific terms, acronyms, and specialized vocabulary for improved accuracy
-- **Calendar Integration**: Extracts meeting titles from your calendar automatically
-- **AI Chat Interface**: Interactive chat with meeting context and document analysis
-- **Privacy-First**: All data stored locally, optional cloud AI services, Apple Intelligence on-device processing
-- **Mac App Store Available**: Full sandboxing support with security-scoped bookmarks
+- **Custom Vocabulary**: Add domain-specific terms, acronyms, and specialized vocabulary for improved transcription accuracy
+- **Privacy-First**: All data stored locally, optional cloud AI services, on-device Apple Intelligence processing
+- **Launch on Login**: Automatically start MeetingMind when you log into macOS
+- **Mac App Store Available**: Full sandboxing support with security-scoped bookmarks for cloud storage
 
 ## Download
 
@@ -89,7 +89,26 @@ See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for detai
 
 ## Recent Updates
 
-### Version 1.3.5 (Current - October 2025)
+### Version 1.3.7 (Current - October 2025)
+- **Clickable meeting links in menu bar**: Calendar meetings now open directly in your browser or meeting app with visual hover feedback
+- **Multi-platform meeting detection**: Calendar integration supports Microsoft Teams, Google Meet, and Webex beyond Zoom
+- **User-controlled calendar filtering**: Toggle to show all events or only meetings with platform links (Zoom, Teams, Google Meet, Webex)
+- **Enhanced security**: URL scheme validation protects against malicious calendar event links
+- **Simplified OpenRouter settings**: Cleaner API key input with improved visual consistency
+- **Improved default AI model**: Changed from gpt-4.1-nano to gpt-4.1 for better quality responses
+- Improved calendar selection visibility with dynamic height (automatically expands for 10+ calendars)
+- Contextual help text changes based on toggle state with appropriate visual icons
+
+### Version 1.3.6 (October 2025)
+- **History Manager Window**: Browse and manage historical recordings with search, sort, and AI chat integration
+- **Recording Reprocessing**: Regenerate markdown summaries from existing audio files
+- **Parakeet ASR Engine**: Alternative post-processing engine 10-100x faster than Whisper
+- **Content-agnostic AI prompts**: Process any audio content (meetings, podcasts, lectures, interviews)
+- **MetricKit Analytics**: Anonymous usage analytics with opt-out privacy model
+- Centralized error alert system with actual error messages
+- Thread safety enhancements for buffer pooling and audio processing
+
+### Version 1.3.5 (October 2025)
 - Drop audio files onto menu bar for instant transcription
 - Automatic app startup when logging into macOS
 - Native on-device AI processing (macOS 26+) as automatic fallback
@@ -97,19 +116,6 @@ See our [Privacy Policy](https://meetingmind.kilabyte.io/privacy.html) for detai
 - Add domain-specific terms for improved transcription accuracy
 - Integrate HuggingFace models with real-time validation
 - Toggle transcript inclusion to save disk space
-
-### Version 1.3.4 (October 2025)
-- OpenAI-compatible AI architecture with dynamic model discovery
-- Platform-agnostic tutorial language for cleaner UI
-- Calendar integration improvements (15-minute meeting window)
-- Bug reporting feature in Settings > About
-- Enhanced purchase messaging
-
-### Version 1.3.3 (October 2025)
-- Multi-platform meeting detection (Teams, Google Meet, Webex added)
-- Free tier extended to 60 minutes per day (from 30 minutes)
-- What's New feature system
-- Fixed QoS priority inversions in audio system
 
 
 ## License

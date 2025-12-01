@@ -9,26 +9,72 @@
 
 MeetingMind is a macOS menu bar application that automatically detects and records online meetings with AI-powered features. Built with Swift/SwiftUI for macOS 15.0+.
 
-### Key Features
+## Features
 
-- **Calendar Integration with Clickable Links**: Join meetings instantly from menu bar - calendar events display meeting links that open directly in your browser or meeting app with visual hover feedback
-- **Multi-Platform Meeting Detection**: Automatically detects Zoom, Teams, Google Meet, and Webex meetings with smart platform filtering
-- **Smart Recording**: Records system audio, microphone, or both with live transcription and automatic meeting title extraction
-- **AI-Powered Processing**: Local WhisperKit/Parakeet transcription + AI summaries (Ollama, OpenRouter, or Apple Intelligence)
-- **Drag-and-Drop Processing**: Drop audio files (M4A, WAV, MP3, AIFF, CAF, AAC) onto menu bar icon for instant transcription
-- **AI Chat Interface**: Interactive chat with meeting context, document analysis, and historical meeting search
+### Recording & Detection
+
+- **Multi-Platform Meeting Detection**: Automatically detects Zoom, Teams, Google Meet, and Webex meetings with smart platform filtering and priority ordering
+- **Smart Recording**: Record system audio, microphone, or both with automatic meeting title extraction from detected platforms
+- **Live Transcription**: Real-time transcription during recording using WhisperKit or Parakeet on-device models
+- **Drag-and-Drop Processing**: Drop audio files (M4A, WAV, MP3, AIFF, CAF, AAC) onto the menu bar icon for instant transcription
+
+### AI-Powered Features
+
+- **AI Summaries**: Generate meeting summaries using local AI (Ollama) or cloud providers (OpenRouter)
+- **AI Chat Interface**: Interactive chat with full meeting context, document analysis, and historical meeting search
 - **Enhanced Speaker Identification**: AI systematically tracks speakers with voice patterns and contextual attribution
 - **Custom Vocabulary**: Add domain-specific terms, acronyms, and specialized vocabulary for improved transcription accuracy
-- **Privacy-First**: All data stored locally, optional cloud AI services, on-device Apple Intelligence processing
+
+### Real-time Insights
+
+- **Live Insight Detection**: AI-powered detection of key moments during meetings as they happen
+- **Built-in Categories**: Automatically detect commitments, tasks, questions, decisions, and urgent items
+- **Custom Insight Categories**: Create your own categories with custom icons, colors, and detection criteria
+- **Auto-Answer Questions**: In listener mode (system audio only), automatically generate suggested answers for questions from meeting participants
+- **Sensitivity Control**: Adjust detection sensitivity from low to high based on your meeting style
+
+### Export Integrations
+
+- **Obsidian Integration**: Automatically export meeting notes to your Obsidian vault with rule-based folder routing
+- **Notion Integration**: Export meeting notes directly to Notion pages via API with folder/database selection
+- **Export Rules**: Create pattern-matching rules to route different meeting types to specific destinations (e.g., "Weekly Standup*" → Meetings/Standups)
+- **Markdown with Frontmatter**: Exported notes include YAML frontmatter with tags, date, duration, and meeting metadata
+
+### Organization & History
+
+- **History Manager**: Full-featured window for browsing, searching, sorting, and managing all past recordings
+- **Tag Management**: Create custom tags with colors and icons to organize recordings by project, client, or topic
+- **Tag Filtering**: Filter recordings by tag in the History Manager for quick access
+- **Search & Sort**: Search recordings by title and sort by date, title, or duration
+- **Batch Operations**: Delete, reprocess, or export multiple recordings at once
+
+### Calendar Integration
+
+- **Clickable Meeting Links**: Join meetings instantly from the menu bar - calendar events display meeting links that open directly in your browser or meeting app
+- **Visual Hover Feedback**: Meeting links highlight on hover for easy identification
+- **Event Display**: See upcoming meetings in your menu bar with one-click join
+
+### Privacy & Security
+
+- **Privacy-First**: All recordings and data stored locally on your Mac
+- **Local AI Processing**: WhisperKit and Parakeet models run entirely on-device - no cloud required
+- **Optional Cloud AI**: OpenRouter and other cloud services are opt-in and user-controlled
+- **Full Sandbox Compliance**: Mac App Store approved with security-scoped bookmarks for file access
+
+### Additional Features
+
 - **Launch on Login**: Automatically start MeetingMind when you log into macOS
-- **Mac App Store Available**: Full sandboxing support with security-scoped bookmarks for cloud storage
+- **Processing Status**: Real-time processing indicator with queue management
+- **Multiple Storage Locations**: Save recordings to iCloud Drive, Dropbox, OneDrive, or any folder
+- **Audio Format Support**: Works with M4A, WAV, MP3, AIFF, CAF, and AAC files
+- **Manual Import**: Import existing audio files for transcription and processing
 
 ## Download
 
 **[Download on the Mac App Store](https://apps.apple.com/app/meeting-mind/id6751551175)**
 
-- **Free tier**: 60 minutes of recording per day
-- **Premium tier**: Unlimited recording
+- **Free tier**: 45 minutes of recording per day
+- **Premium tier**: Unlimited recording + Real-time Insights
 
 ## Purpose of This Repository
 

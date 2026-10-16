@@ -141,14 +141,8 @@ picks up the port and token from Meeting Mind itself, so **no token goes in your
 
 Copy the exact `command` path from Settings > MCP. For the Mac App Store install it is normally
 `/Applications/MeetingMind.app/Contents/MacOS/MeetingMind`.
-<!-- TODO(Dave): confirm the path above matches what Settings > MCP shows on a fresh App Store install. -->
-
 The Meeting Mind app must be running with the MCP server turned on. If it isn't, the stdio bridge answers with
 "MeetingMind MCP server is off. Turn it on in Settings > MCP."
-
-<!-- TODO(Dave): list the clients you've actually tested end to end (e.g. Claude Desktop, Claude Code, Cursor,
-VS Code, Cline) and add the config-file location for each. The app's own hint text says "Paste this into Cursor,
-Claude, or another MCP client on this Mac." Until confirmed, keep the wording generic. -->
 
 ### Tools
 
@@ -218,12 +212,8 @@ no resources or prompts.
 
 - macOS 26 or later.
 - Apple Silicon or Intel Mac.
-  <!-- TODO(Dave): the 1.5.4 binary is universal (arm64 + x86_64). Confirm which transcription models Intel Macs
-  get and whether any features are Apple Silicon only. -->
 - Permissions: **Microphone** and **System Audio Recording**. **Accessibility** is recommended for automatic meeting
   detection. **Calendar** is optional (meeting titles, Unlimited). Meeting Mind never uses Screen Recording.
-  <!-- TODO(Dave): add a RAM recommendation if you still want one; the old README said 8 GB minimum / 16 GB
-  recommended, which I couldn't verify for 1.5.4. -->
 
 ## Choosing your AI
 
